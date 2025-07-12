@@ -29,7 +29,7 @@ body {
   background-color: #F2EDED;
 }
 .secondary-bg{
-    
+    background-color: rgba(78, 71, 255, 0.1);
 }
 header{
     background-image: url('..//Assets/Hero-bg.png');
@@ -92,6 +92,33 @@ main{
     height: 328px;
     border-radius: 48px;
 
+}
+/* productive-user style */
+.productive-user{
+
+    border-radius: 24px;
+    padding: 50px 80px;
+    margin-top: 116px;
+}
+.user-title{
+    font-weight: bold;
+    font-size: 38px;
+    color: #252432;
+    text-align: center;
+}
+.user-itrms{
+    display: flex;
+    justify-content: space-around;
+}
+.item-title{
+    font-weight: bold;
+    font-size: 80px;
+    color: #4E47FF;
+}
+.item{
+    font-weight: 400px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5); 
 }
 
 
